@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Main {
 
-    public int atSign(int a, int b) throws Exception {
+    public long atSign(long a, long b) throws Exception {
 
         return (a + b) * (a - b);
 
@@ -13,10 +13,10 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        long a = sc.nextLong();
+        long b = sc.nextLong();
 
-        int result = new Main().atSign(a, b);
+        long result = new Main().atSign(a, b);
 
         sc.close();
 
